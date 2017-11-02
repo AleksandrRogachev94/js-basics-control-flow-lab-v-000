@@ -3,8 +3,8 @@ let distance;
 
  function scuberGreetingForFeet(distance){
    if (distance <= 400){
-     print("This one is on me!");
+     console.log("This one is on me!");
    }
  } else if (distance > 2000) {
-   return("I will gladly take your thirty bucks.");
+   console.log("I will gladly take your thirty bucks.");
  }
